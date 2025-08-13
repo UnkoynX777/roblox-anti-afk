@@ -6,7 +6,7 @@ Desenvolvido em **C++ com Qt**.
 ---
 
 ## 📸 Captura de Tela
-![Screenshot](https://ibb.co/Z6cCtQHr)
+![Screenshot](https://i.ibb.co/3ySHGxfb/image-removebg-preview-2.png)
 
 ---
 
