@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>270</width>
+    <height>175</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Roblox Anti Afk</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #121212;
+border-radius: 12px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #121212;
+border-radius: 12px;</string>
+   </property>
+   <widget class="QPushButton" name="btnStart">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #2980b9;
+}
+QPushButton:pressed {
+    background-color: #1f5f85;
+}</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnFechar">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Botão Minimizar - amarelo */
+#btnMinimizar {
+    background-color: #f4c20d;
+    border-radius: 10px;
+    min-width: 20px;
+    min-height: 20px;
+    border: 1.5px solid #c6a700;
+}
+
+#btnMinimizar:hover {
+    background-color: #ffd93b;
+    border: 1.5px solid #e1c700;
+}
+
+/* Botão Fechar - vermelho */
+#btnFechar {
+    background-color: #ff5f57;
+    border-radius: 10px;
+    min-width: 20px;
+    min-height: 20px;
+    border: 1.5px solid #e0483e;
+}
+
+#btnFechar:hover {
+    background-color: #ff7b72;
+    border: 1.5px solid #f44235;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMinimizar">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Botão Minimizar - amarelo */
+#btnMinimizar {
+    background-color: #f4c20d;
+    border-radius: 10px;
+    min-width: 20px;
+    min-height: 20px;
+    border: 1.5px solid #c6a700;
+}
+
+#btnMinimizar:hover {
+    background-color: #ffd93b;
+    border: 1.5px solid #e1c700;
+}
+
+/* Botão Fechar - vermelho */
+#btnFechar {
+    background-color: #ff5f57;
+    border-radius: 10px;
+    min-width: 20px;
+    min-height: 20px;
+    border: 1.5px solid #e0483e;
+}
+
+#btnFechar:hover {
+    background-color: #ff7b72;
+    border: 1.5px solid #f44235;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 700; /* mais negrito para ficar 'gordinho' */
+    font-family: &quot;SF Pro Display&quot;, &quot;Helvetica Neue&quot;, &quot;Avenir Next&quot;, Arial, sans-serif;
+    color: #0072ff;
+    letter-spacing: -0.5px; /* letras mais compactas, estilo Apple */
+}</string>
+    </property>
+    <property name="text">
+     <string>Anti AFK</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
