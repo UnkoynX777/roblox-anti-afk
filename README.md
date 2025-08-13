@@ -16,7 +16,7 @@ Desenvolvido em **C++ com Qt**.
 ---
 
 ## 🧪 Análise de Segurança (VirusTotal)
-O executável foi verificado no **VirusTotal** e não apresenta ameaças conhecidas.
+O executável foi verificado no **VirusTotal** e não apresenta ameaças conhecidas.  
 🔗 [Ver relatório completo](https://www.virustotal.com/gui/file/523bfc950b67e17d25166a1ad5b324e24c313449ef91b711d91b11663819fafb?nocache=1)
 
 ---
